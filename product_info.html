@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <meta charset="UTF-8">
+	   <title></title>
+	   <meta charset="utf-8" />
+	   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	   <title>商品详情</title>
+	   <link rel="stylesheet" href="css/style.css" />
+	   <link rel="stylesheet" href="css/product_detail.css"/>
+	   <link rel="stylesheet" href="css/public.css" />
+	   <link rel="stylesheet" href="css/base.css" />
+	   <link rel="stylesheet" href="css/loading.css"/>
+	   <link rel="stylesheet" href="css/op.css" />
+	   <link rel="stylesheet" href="css/se.css" />
+	   <link rel="stylesheet" href="css/jquery-weui.css"/>
+	   <link rel="stylesheet" href="dist/style/weui.min.css"/>
+	   <script type="text/javascript" src="js/jquery-2.1.4.js" ></script>
+	   <script type="text/javascript" src="dist/example/zepto.min.js"></script>
+	   <script type="text/javascript" src="js/product_detail.js"></script>
+	   <script type="text/javascript" src="js/swiper.js"></script>
+	   <script type="text/javascript" src="js/jquery-weui.min.js" ></script>
+	   <script type="text/javascript">
+    	$(window).load(function(){
+    		$(".loading").addClass("loader-chanage")
+    		$(".loading").fadeOut(500)
+    	})
+    </script>
+	</head>
+	<!--loading页开始-->
+	<div class="loading">
+		<div class="loader">
+	        <div class="loader-inner pacman">
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	        </div>
+		</div>
+	</div>
+	<!--loading页结束-->
+	<body>
+        <div class="swiper-container swiper-zhutu">
+          <div class="back"><a href="javascript:history.back()"><img src="img/back.png" width="20px" height="20px"/></a></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/classification/zhutu01.jpg"/></div>
+            <div class="swiper-slide"><img src="img/classification/zhutu02.jpg" /></div>
+            <div class="swiper-slide"><img src="img/classification/zhutu03.jpg" /></div>
+            <div class="swiper-slide"><img src="img/classification/zhutu04.jpg" /></div>
+            <div class="swiper-slide"><img src="img/classification/zhutu05.jpg" /></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!--轮播图结束-->
+        <div class="weui-detail">
+        	<div class="goods_price_list clearfix">
+        	<div class="goods_price"><span class="price_icon">¥</span><span class="now_price">125.0</span><s class="origin_price">29.8</s></div>
+        	<div class="goods_sales"><span class="conunt">累计销量:</span>125000<span>件</span></div>
+        </div>
+        <div class="goods_info">
+        	<p class="goods_info_detail">【买1送1】牙斑净速效去除烟渍 茶渍 咖啡渍 食物色素等引起的黑黄牙 美白牙齿 【一次见效】10ml</p>
+        	<p class="goods_info_title">【买1盒送1包棉签】【买2盒送1盒】牙斑净速效去除烟渍 茶渍 咖啡渍 食物色素等引起的黑黄牙 美白牙齿 【一次见效】</p>
+        </div>
+        <div class="goods_guarantee">
+        	<span class="guarantee_item"><span class="guranti_icon"><!--<img src="dist/example/images/icon_nav_feedback.png" width="12px" height="12px"/>--></span>全场包邮</span>
+        	<span class="guarantee_item"><span class="guranti_icon"><!--<img src="dist/example/images/icon_nav_feedback.png" width="12px" height="12px"/>--></span>7天包退</span>
+        	<span class="guarantee_item"><span class="guranti_icon"><!--<img src="dist/example/images/icon_nav_feedback.png" width="12px" height="12px"/>--></span>48小时发货</span>
+        	<span class="guarantee_item"><span class="guranti_icon"><!--<img src="dist/example/images/icon_nav_feedback.png" width="12px" height="12px"/>--></span>假一赔十</span>
+        </div>
+        <p class="sm">支付开团并邀请 1 人参团，人数不足自动退款</p>
+        <p class="buy_groups">以下小伙伴正在发起团购，快快加入吧!</p>
+        <div class="tuangou">
+    	<div class="grous_detail clearfix">
+    			<span class="tx"><img src="img/classification/tx02.jpg" width="30px" height="30px"/></span>
+    			<div class="go_groups clearfix">
+    				<div class="items clearfix">
+        				<span class="groups_name">晓月</span>
+        				<span class="group_remain">剩余:<span>3</span>人开团</span>
+    				</div>
+    				<div class="items clearfix">
+        				<span class="groups_place">防城港</span>
+        				<span class="group_remaintime">剩余:<span>20</span><span>:</span><span>00</span><span>:</span><span>00</span>结束</span>
+    				</div>
+    			</div>
+    			<div class="identity clearfix">
+    				<a href="index.html">去开团</a>
+    			</div>
+    		</div>
+    		<div class="grous_detail clearfix">
+    			<span class="tx"><img src="img/classification/tx03.jpg" width="30px" height="30px"/></span>
+    			<div class="go_groups clearfix">
+    				<div class="items clearfix">
+        				<span class="groups_name">黄玉兰</span>
+        				<span class="group_remain">还差:<span>3</span>人开团</span>
+    				</div>
+    				<div class="items clearfix">
+        				<span class="groups_place">广州</span>
+        				<span class="group_remaintime">剩余:<span>20</span><span>:</span><span>00</span><span>:</span><span>00</span>结束</span>
+    				</div>
+    			</div>
+    			<div class="identity clearfix">
+    				<a href="index.html">去开团</a>
+    			</div>
+    		</div>
+        </div>	
+        <!--店铺详情-->
+        <div class="stores clearfix">
+	         <div class="stores_leftside clearfix">
+        		<div class="stores_logo"><img src="img/classification/ca9d11a.jpg" width="40px" height="40px"/></div>
+        		<div class="stores_detail">
+        			<div class="stores_name">暖燕服饰</div>
+        			<div class="stores_salse">销量:<span>12345</span></div>
+        		</div>
+	        </div>
+	        <div class="stores_rightside clearfix">
+        		<div class="store_icon"><img src="img/classification/stores.png"/></div>
+        		<a class="stores_enter" href="#">进入店铺</a>
+	        </div>
+        </div>
+        <!--店铺推荐-->
+        <div class="stores_recommend">
+        	<p class="recommend">店铺推荐</p>
+        	<div class="pro_recommand clearfix">
+        		<ul class="recommand_pic">
+        			<li class="pro_items">
+        				<img class="pic" src="img/classification/pic01.jpg" />
+        				<p class="pro_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="pro_price">¥<span class="proprice">29.5</span></div>
+        			</li>
+        			<li class="pro_items">
+        				<img class="pic" src="img/classification/pic02.jpg" />
+        				<p class="pro_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="pro_price">¥<span class="proprice">29.5</span></div>
+        			</li>
+        			<li class="pro_items">
+        				<img class="pic" src="img/classification/pic03.jpg" />
+        				<p class="pro_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="pro_price">¥<span class="proprice">29.5</span></div>
+        			</li>
+        		</ul>
+        	</div>
+        </div>
+        <!--商品图片详情-->
+        <div class="pro_detail_pic">
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc01.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc02.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc03.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc04.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc05.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc06.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc07.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc08.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc09.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc10.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc11.jpg" />
+        	<img class="lazy" src="img/blank.gif" data-echo="img/classification/dpc12.jpg" />
+        </div>
+        <!--你可能会喜欢商品推荐-->
+        <div class="youlike">
+        	<p class="maybe_like">你可能会喜欢</p>
+        	<div class="pro_maylike clearfix">
+        		<ul class="maylike_pic">
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/pic01.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">29.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/pic02.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">29.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/pic03.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">29.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/like01.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">29.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/like02.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">129.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/like03.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">329.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/like04.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">29.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/like05.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">129.5</span></div>
+        			</li>
+        			<li class="maylike_items">
+        				<img class="pic" src="img/classification/like06.jpg" />
+        				<p class="maylike_title">【爱逛街】春装新款韩版拼接娃娃领衬衣假两件衬衫</p>
+        				<div class="maylike_price">¥<span class="maylikeprice">329.5</span></div>
+        			</li>
+        		</ul>
+        	</div>
+        </div> 
+        <!--end-->
+        <!--返回顶部按钮-->
+        <span id="tophovertree" title="返回顶部"></span>
+        <!--已经到底了底部开始-->
+        <div class="bottom_boundary">已经到底部了</div>
+        <!--底部导航-->
+		<!--<div class="foot-black"></div>-->
+		<div class="weui-tabbar wy-foot-menu">
+		  <a href="index.html" class="promotion-foot-menu-items">
+		    <div class="weui-tabbar__icon promotion-foot-menu-index"></div>
+		    <p class="weui-tabbar__label">首页</p>
+		  </a>
+		  <a href="javascript:;" class="promotion-foot-menu-items">
+		    <div class="weui-tabbar__icon promotion-foot-menu-kefu"></div>
+		    <p class="weui-tabbar__label">客服</p>
+		  </a>
+		  <a href="javascript:;" id="showToast" class="promotion-foot-menu-items">
+		    <div class="weui-tabbar__icon promotion-foot-menu-collection"></div>
+		    <p class="weui-tabbar__label">收藏</p>
+		  </a>
+		  <a href="javascript:;" class="weui-tabbar__item yellow-color open-popup" data-target="#selcet_sku">
+		  	<p class="alone_price">¥150.00</p>
+		    <p class="promotion-foot-menu-label">单独购买</p>
+		  </a>
+		  <a href="javascript:;" class="weui-tabbar__item red-color open-popup" data-target="#selcet_sku">
+		  	<p class="tg_price">¥128.9</p>
+		    <p class="promotion-foot-menu-label">两人团</p>
+		  </a>
+		</div>
+		<div id="join_cart" class='weui-popup__container popup-bottom' style="z-index:600;">
+		  <div class="weui-popup__overlay" style="opacity:1;"></div>
+		  <div class="weui-popup__modal">
+		    <div class="modal-content">
+		      <div class="weui-msg" style="padding-top:0;">
+		        <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+		        <div class="weui-msg__text-area">
+		          <h2 class="weui-msg__title">成功加入购物车</h2>
+		          <p class="weui-msg__desc">亲爱的用户，您的商品已成功加入购物车，为了保证您的商品快速送达，请您尽快到购物车结算。</p>
+		        </div>
+		        <div class="weui-msg__opr-area">
+		          <p class="weui-btn-area">
+		            <a href="shopcart.html" class="weui-btn weui-btn_primary">去购物车结算</a>
+		            <a href="javascript:;" class="weui-btn weui-btn_default close-popup">不，我再看看</a>
+		          </p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div id="selcet_sku" class='weui-popup__container popup-bottom' style="z-index:600;">
+		  <div class="weui-popup__overlay" style="opacity:1;"></div>
+		  <div class="weui-popup__modal">
+		    <div class="toolbar">
+		      <div class="toolbar-inner">
+		        <a href="javascript:;" class="picker-button close-popup">关闭</a>
+		        <h1 class="title">商品属性</h1>
+		      </div>
+		    </div>
+		    <div class="modal-content">
+		      <div class="weui-msg" style="padding-top:0;">
+		        <div class="wy-media-box2 weui-media-box_text" style="margin:0;">
+		          <div class="weui-media-box_appmsg">
+		            <div class="weui-media-box__hd proinfo-txt-l"><span class="promotion-label-tit">尺码</span></div>
+		            <div class="weui-media-box__bd">
+		              <div class="promotion-sku clear">
+		                <ul>
+		                  <li><a href="javascript:;">25</a></li>
+		                  <li><a href="javascript:;">30</a></li>
+		                  <li><a href="javascript:;">34</a></li>
+		                  <li><a href="javascript:;">40</a></li>
+		                  <li><a href="javascript:;">45</a></li>
+		                  <li><a href="javascript:;">50</a></li>
+		                </ul>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="weui-media-box_appmsg">
+		            <div class="weui-media-box__hd proinfo-txt-l"><span class="promotion-label-tit">颜色</span></div>
+		            <div class="weui-media-box__bd">
+		              <div class="promotion-sku clear">
+		                <ul>
+		                  <li><a href="javascript:;">黑色</a></li>
+		                  <li><a href="javascript:;">红色</a></li>
+		                  <li><a href="javascript:;">白色</a></li>
+		                  <li><a href="javascript:;">蓝色</a></li>
+		                  <li><a href="javascript:;">橘黄色</a></li>
+		                  <li><a href="javascript:;">绿色</a></li>
+		                </ul>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="weui-msg__opr-area">
+		          <p class="weui-btn-area">
+		            <a href="pay.html" class="weui-btn weui-btn_primary">立即购买</a>
+		            <a href="javascript:;" class="weui-btn weui-btn_default close-popup">不，我再看看</a>
+		          </p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+     </div>
+     <!-- 懒加载 -->
+    <script type="text/javascript" src="js/echo.min.js" ></script>
+    <script>
+        Echo.init({
+            offset: 0,
+            throttle: 500
+        });
+    </script>
+ </body>
+</html>

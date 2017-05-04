@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+   <title>商城</title>
+   <link rel="stylesheet" href="dist/style/weui.min.css" />
+   <link rel="stylesheet" href="css/index.css" />
+   <!--<link rel="stylesheet" href="css/style.css" />-->
+   <link rel="stylesheet" href="css/base.css" />
+   <link rel="stylesheet" href="css/loading.css"/>
+   <link rel="stylesheet" href="css/op.css" />
+   <link rel="stylesheet" href="css/se.css" />
+   <link rel="stylesheet" href="css/jquery-weui.css"/>
+   <script type="text/javascript" src="js/jquery-2.1.4.js" ></script>
+   <script type="text/javascript" src="dist/example/zepto.min.js" ></script>
+   <script type="text/javascript" src="js/index.js" ></script>
+   <script type="text/javascript" src="js/swiper.js" ></script>
+   <script type="text/javascript">
+    	$(window).load(function(){
+    		$(".loading").addClass("loader-chanage")
+    		$(".loading").fadeOut(500)
+    	})
+    </script>
+</head>
+	<!--loading页开始-->
+	<div class="loading">
+		<div class="loader">
+	        <div class="loader-inner pacman">
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	        </div>
+		</div>
+	</div>
+	<!--loading页结束-->
+	<body ontouchstart>
+		<header>
+		      <div class="swiper-container swiper-nav">
+		        <div class="swiper-wrapper">
+			          <div class="swiper-slide"><a class="active" href="javascript；void(0)">首页</a></div>
+			          <div class="swiper-slide"><a href="classification.html">服饰箱包</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">家居生活</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">母婴玩具</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">食品饮料</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">数码电器</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">家居生活</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">美妆护肤</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">家纺家具</a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)">水果生鲜</a></div>
+		        </div>
+		      </div>
+	    </header>
+	    <!--主体-->
+	     <!--顶部轮播-->
+         <div class="weui-content">
+         	  <div class="swiper-container swiper-banner">
+                 <div class="swiper-wrapper">
+	                <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/slider01.jpg" /></a></div>
+	                <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/slider02.jpg" /></a></div>
+	                <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/slider03.jpg" /></a></div>
+	                <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/slider06.jpg" /></a></div>
+	                <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/slider01.jpg" /></a></div>
+	                <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/slider03.jpg" /></a></div>
+                  </div>
+                 <div class="swiper-pagination"></div>
+              </div>
+           <!--商品图标分类-->
+            <div class="weui-flex wy-iconlist-box">
+	               <div class="weui-flex__item"><a href="pro_list.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link2.png"></div><p>限时抢购</p></a></div>
+	               <div class="weui-flex__item"><a href="pro_list.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link2.png"></div><p>9块9特价</p></a></div>
+	               <div class="weui-flex__item"><a href="all_orders.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link3.png"></div><p>港产品</p></a></div>
+	               <div class="weui-flex__item"><a href="Settled_in.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link4.png"></div><p>商家入驻</p></a></div>
+	               <div class="weui-flex__item"><a href="all_orders.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link3.png"></div><p>视频区</p></a></div>
+            </div>
+            <div class="weui-flex wy-iconlist-box">
+	               <div class="weui-flex__item"><a href="pro_list.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link2.png"></div><p>附近</p></a></div>
+	               <div class="weui-flex__item"><a href="pro_list.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link2.png"></div><p>私人订制</p></a></div>
+	               <div class="weui-flex__item"><a href="all_orders.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link3.png"></div><p>拼购</p></a></div>
+	               <div class="weui-flex__item"><a href="Settled_in.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link4.png"></div><p>游记攻略</p></a></div>
+	               <div class="weui-flex__item"><a href="all_orders.html" class="wy-links-iconlist"><div class="img"><img src="img/icon-link3.png"></div><p>VR专区</p></a></div>
+            </div>
+              <!--产品购买列表-->
+              <div class="goods_buy">
+              	<!--一个商品开始-->
+	              <div class="goods_product">
+	                  <div class="goods_img">
+	                  	<img src="img/slider03.jpg" />
+	                  </div>
+	                  <p class="goods_name">【亏本促销】【2017春夏新款】时尚3D立体印花四件套 亲肤面料四件套 被套规格200X230CM</p>
+	                  <div class="weui-flex detail">
+	                  	   <div class="weui-flex__item left_side">
+	                  	   	   <div class="sale_price">
+	                  	   	   	<span class="react">￥</span>
+	                  	   	   	<span class="price">135</span>
+	                  	   	   	<span class="sale_detail">
+	                  	   	   		<span>已团</span>
+	                  	   	   		<span>2000件</span>
+	                  	   	   	</span>
+	                  	   	   </div>
+	                  	   </div>
+	                  	   <div class="weui-flex__item right_side">
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="img/classification/tx02.jpg" />
+	                  	   	 </span>
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="img/classification/tx01.jpg" />
+	                  	   	 </span>
+	                  	   	 <span class="enter-button enter-button-arrow"><a href="#">去开团</a></span>
+	                  	   </div>
+	                    </div>
+	                 </div>
+	                <!--一个商品开始-->
+	                 <div class="goods_product">
+	                  <div class="goods_img">
+	                  	<img src="img/slider03.jpg" />
+	                  </div>
+	                  <p class="goods_name">【亏本促销】【2017春夏新款】时尚3D立体印花四件套 亲肤面料四件套 被套规格200X230CM</p>
+	                  <div class="weui-flex detail">
+	                  	   <div class="weui-flex__item left_side">
+	                  	   	   <div class="sale_price">
+	                  	   	   	<span class="react">￥</span>
+	                  	   	   	<span class="price">135</span>
+	                  	   	   	<span class="sale_detail">
+	                  	   	   		<span>已团</span>
+	                  	   	   		<span>2000件</span>
+	                  	   	   	</span>
+	                  	   	   </div>
+	                  	   </div>
+	                  	   <div class="weui-flex__item right_side">
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="dist/example/images/icon_nav_feedback.png" />
+	                  	   	 </span>
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="dist/example/images/icon_nav_article.png" />
+	                  	   	 </span>
+	                  	   	 <span class="enter-button enter-button-arrow"><a href="#">去开团</a></span>
+	                  	   </div>
+	                    </div>
+	                 </div>
+                 </div>
+          <!--一个商品结束-->
+          <!--查看更多商品一栏开始-->
+            <section class="morepruduct">
+              <div class="morepruduct_title clearfix">
+              	<p>精品新品潮流推荐Top榜</p>
+              	<a class="loadmore">查看更多>></a>
+              </div>
+		      <div class="swiper-container swiper-banner-more">
+		        <div class="swiper-wrapper">
+			          <div class="swiper-slide"><a class="active" href="javascript；void(0)"><img src="img/jingxuan1.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan5.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan3.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan2.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan4.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan1.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan2.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan3.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan4.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+			          <div class="swiper-slide"><a href="javascript；void(0)"><img src="img/jingxuan2.jpg"/><p>经典运动鞋2017</p><span>￥28.9</span></a></div>
+		        </div>
+		      </div>
+	    </section>
+	    <!--产品购买列表-->
+              <div class="goods_buy">
+              	<!--一个商品开始-->
+	              <div class="goods_product">
+	                  <div class="goods_img">
+	                  	<a href="product_info.html">
+	                  		<img src="img/slider03.jpg" />
+	                  	</a>
+	                  </div>
+	                  <p class="goods_name">【亏本促销】【2017春夏新款】时尚3D立体印花四件套 亲肤面料四件套 被套规格200X230CM</p>
+	                  <div class="weui-flex detail">
+	                  	   <div class="weui-flex__item left_side">
+	                  	   	   <div class="sale_price">
+	                  	   	   	<span class="react">￥</span>
+	                  	   	   	<span class="price">135</span>
+	                  	   	   	<span class="sale_detail">
+	                  	   	   		<span>已团</span>
+	                  	   	   		<span>2000件</span>
+	                  	   	   	</span>
+	                  	   	   </div>
+	                  	   </div>
+	                  	   <div class="weui-flex__item right_side">
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="dist/example/images/icon_nav_feedback.png" />
+	                  	   	 </span>
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="dist/example/images/icon_nav_article.png" />
+	                  	   	 </span>
+	                  	   	 <span class="enter-button enter-button-arrow"><a href="product_info.html">去开团</a></span>
+	                  	   </div>
+	                    </div>
+	                 </div>
+	                <!--一个商品开始-->
+	                 <div class="goods_product">
+	                  <div class="goods_img">
+	                  	<img src="img/slider03.jpg" />
+	                  </div>
+	                  <p class="goods_name">【亏本促销】【2017春夏新款】时尚3D立体印花四件套 亲肤面料四件套 被套规格200X230CM</p>
+	                  <div class="weui-flex detail">
+	                  	   <div class="weui-flex__item left_side">
+	                  	   	   <div class="sale_price">
+	                  	   	   	<span class="react">￥</span>
+	                  	   	   	<span class="price">135</span>
+	                  	   	   	<span class="sale_detail">
+	                  	   	   		<span>已团</span>
+	                  	   	   		<span>2000件</span>
+	                  	   	   	</span>
+	                  	   	   </div>
+	                  	   </div>
+	                  	   <div class="weui-flex__item right_side">
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="dist/example/images/icon_nav_feedback.png" />
+	                  	   	 </span>
+	                  	   	 <span class="avatar">
+	                  	   	 	<img src="dist/example/images/icon_nav_article.png" />
+	                  	   	 </span>
+	                  	   	 <span class="enter-button enter-button-arrow"><a href="#">去开团</a></span>
+	                  	   </div>
+	                    </div>
+	                 </div>
+                 </div>
+          <!--一个商品结束-->
+         </div> 
+         <span id="tophovertree" title="返回顶部"></span>
+        <!--end-->
+       <!--底部导航-->
+		<div class="weui-tabbar wy-foot-menu">
+		  <a href="index.html" class="weui-tabbar__item weui-bar__item--on">
+		    <div class="weui-tabbar__icon foot-menu-home"></div>
+		    <p class="weui-tabbar__label">首页</p>
+		  </a>
+		  <a href="new_product.html" class="weui-tabbar__item">
+		    <div class="weui-tabbar__icon foot-menu-list"></div>
+		    <p class="weui-tabbar__label">新品</p>
+		  </a>
+		  <a href="haitao.html" class="weui-tabbar__item" id="showToast">
+		    <div class="weui-tabbar__icon foot-menu-cart"></div>
+		    <p class="weui-tabbar__label">海淘</p>
+		  </a>
+		  <a href="search.html" class="weui-tabbar__item">
+		    <div class="weui-tabbar__icon foot-menu-member"></div>
+		    <p class="weui-tabbar__label">搜索</p>
+		  </a>
+		  <a href="mine.html" class="weui-tabbar__item">
+		    <div class="weui-tabbar__icon foot-menu-member"></div>
+		    <p class="weui-tabbar__label">个人中心</p>
+		  </a>
+		</div>
+	   </body>
+</html>

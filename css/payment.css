@@ -1,0 +1,116 @@
+body{
+	background:#f2f2f2;
+}
+.center-list-txt{
+	font-size: 14px;
+	padding-left: 10px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+.clearfix::before,.clearfix::after{
+    content:"";
+    height: 0;
+    display: block;
+    line-height:0;
+    clear: both;
+    visibility: hidden;
+}
+/*店铺及购买详情*/
+.pro_store{
+	background: #fff;
+	margin-top: 15px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.pro_store .store_logo{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-left:10px;
+	margin-top: 5px;
+}
+.pro_store .store_name{
+	font-size: 14px;
+	display: inline-block;
+	color: #000;
+	font-family: "微软雅黑";
+}
+.pro_buy_detail{
+	margin-top: 20px;
+}
+.pro_store .store_logo img{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	vertical-align: middle;
+}
+.pro_buy_detail .fl_pro_pic{
+	width:30%;
+	float: left;
+	text-align: center;
+}
+.pro_buy_detail .fr_pro_detail{
+	width:68%;
+	float: right;
+	margin-left:5px;
+}
+.fl_pro_pic img{
+	margin-left: 5px;
+}
+.fr_pro_detail .goods_title{
+	height:40px;
+	overflow: hidden;
+	padding:8px 18px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.fr_pro_detail .specifications,.unit_Price{
+	padding-left:18px;
+}
+.specifications{
+	color: #ccc;
+	font-size:16px;
+}
+/*旗舰店商品详情部分*/
+.buy_count .fr .num{
+	width:51px;
+	border:1px solid #e4e4e4;
+    background-color: #fafafa;
+    cursor: pointer;
+	text-align:center;
+}
+.buy_count .fr .add,.reduce{
+	border: 1px solid #e4e4e4;
+    background-color: #fafafa;
+    cursor: pointer;
+    width:25px;
+    text-align: center;
+}
+.promotion-foot-menu-label{
+	display: inline-block;
+	margin-left:-10px;
+	color: #000;
+}
+.font-20.all{
+	color:#e21323;
+	margin-left: 2px;
+}
+.weui-tabbar__item.open-popup{
+	background: #fff;
+	border-top:1px solid #EDEDED;
+}
+.paymoney span{
+	color: #fff;
+}
+.go_pay::after{
+	content:"";
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background: url(../img/remaintime.png) no-repeat;
+	vertical-align: middle;
+}
+.promotion-foot-menu-label.remaintime{
+	display: inline-block;
+	margin-left:6px;
+}

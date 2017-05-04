@@ -1,0 +1,42 @@
+.buy_count .fr .num{
+	width:51px;
+	border:1px solid #e4e4e4;
+    background-color: #fafafa;
+    cursor: pointer;
+	text-align:center;
+}
+.buy_count .fr .add,.reduce{
+	border: 1px solid #e4e4e4;
+    background-color: #fafafa;
+    cursor: pointer;
+    width:25px;
+    text-align: center;
+}
+.promotion-foot-menu-label{
+	display: inline-block;
+	margin-left:-10px;
+	color: #000;
+}
+.font-20.all{
+	color:#e21323;
+	margin-left: 2px;
+}
+.weui-tabbar__item.open-popup{
+	background: #fff;
+	border-top:1px solid #EDEDED;
+}
+.paymoney span{
+	color: #fff;
+}
+/*.go_pay::after{
+	content:"";
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background: url(../img/remaintime.png) no-repeat;
+	vertical-align: middle;
+}*/
+.promotion-foot-menu-label.remaintime{
+	display: inline-block;
+	margin-left:6px;
+}

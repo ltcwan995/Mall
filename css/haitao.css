@@ -1,0 +1,263 @@
+li{
+	list-style: none;
+}
+/*产品推荐*/
+.tc:before{
+	content:"";
+	width: 32px;
+	height: 32px;
+	background: url(../img/classification/tc.png) no-repeat;
+}
+.recommend{
+	background: #fff;
+}
+.recommend_fl{
+	width: 47%;
+	float: left;
+}
+.recommend_fl h3{
+	text-align: center;
+	overflow: hidden;
+	color:#ff70b0;
+}
+.recommend_fr h3{
+	text-align: center;
+	overflow: hidden;
+	color:#c05df9;
+}
+.recommend_fr_title{
+	color: #454545;
+	text-align: center;
+}
+.remain_time{
+	text-align: center;
+}
+.remain_time .hours,.minute,.second{
+	display: inline-block;
+	padding:1px 3px;
+	background: #000;
+	color: #fff;
+	opacity: 0.6;
+}
+.remain_time em{
+	font-style: normal;
+	color: #000;
+	font-weight: bold;
+}
+.fq_pic img,.rqw_pic img{
+	width:100px;
+	height:100px;
+}
+.fq_pic,.rqw_pic{
+	text-align: center;
+}
+.recommend_fr{
+	width: 47%;
+	float: right;
+}
+.Head_portrait{
+	height:50px;
+	margin-left:20%;
+}
+.Head_portrait .items{
+	float: left;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	padding-left: 2px;
+}
+.recommend_fl .Head_portrait .items img{
+	width: 32px;
+	height: 32px;
+	border-radius:50%;
+}
+.recommend_fr .Head_portrait .items img{
+	width: 32px;
+	height: 32px;
+}
+/*产品列表*/
+.Module_title h3{
+	height:30px;
+	text-align: center;
+	color: #e02e24;
+	padding-top: 10px;
+	color: #58595b;
+}
+.wy-Module{
+	margin-top:5px;
+	background: #fff;
+}
+.wy-Module .product_bz{
+	font-size:14px;
+	text-align: center;
+	margin:10px;
+}
+.wy-Module .product_bz span{
+	color:#58595b;
+	margin-left:23px;
+	font-size:18px;
+	position: relative;
+}
+/*正品保证*/
+.wy-Module .product_bz .bz::before{
+	content:"";
+	display:inline-block;
+	width:25px;
+	height:25px;
+	background:url(../img/zpbz.png) no-repeat;
+	position: absolute;
+	left:-26px ;
+}
+.wy-Module .product_bz .by::before{
+	content:"";
+	display:inline-block;
+	width:25px;
+	height:25px;
+	background:url(../img/bsby.png) no-repeat;
+	position: absolute;
+	left:-26px ;
+}
+.wy-Module .product_bz .speed::before{
+	content:"";
+	display:inline-block;
+	width:25px;
+	height:25px;
+	background:url(../img/jsfh.png) no-repeat;
+	position: absolute;
+	left:-26px ;
+}
+/*海淘商品列表*/
+.my_product .fl_pic{
+	display: block;
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.my_product .fr_product_detail{
+	display: block;
+	width:58%;
+	float: right;
+}
+.fr_product_detail .product_title{
+	height:46px;
+	overflow:hidden;
+	color:#000;
+	padding: 5px;
+}
+.fl_pic img{
+	width:130px;
+	height:130px;
+	margin-left: 2px;
+}
+.tx_items .tx{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+}
+.tx_items .tx:nth-child(1){
+	margin-left:8px;
+}
+.tx_items .tx:nth-child(2){
+	margin-left:-6px;
+}
+.tx_items .tx img{
+	display: block;
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+}
+.wy-Module-con{
+	margin-bottom: 5px;
+}
+.wy-pro-list{
+	margin-bottom: 5px;
+}
+.wy-pro-list .product_items{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.wy-pro-list .product_items .my_product{
+	margin-bottom: 5px;
+}
+.wy-pro-list li{
+	margin-bottom: 5px;
+}
+.product_bottom .fl_product_buy{
+	float: left;
+	width: 50%;
+}
+.fl_product_buy .already_buy{
+	font-size:14px;
+	color:#9C9C9C;
+	width: 100%;
+}
+.fl_product_buy .product_price{
+	color: #e02e24;
+	font-size:16px;
+	font-weight: bold;
+}
+.fl_product_buy i,em{
+	font-style: normal;
+}
+.fl_product_buy span{
+	display: block;
+}
+.product_bottom .fr_product_buy{
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+.product_bottom .fr_product_buy .go_buy_btn{
+	display: inline-block;
+	background:#e02e24;
+	height:42px;
+	line-height:42px;
+	color: #fff;
+	margin-right:10px;
+	border-radius:5px;
+	text-align: center;
+}
+.product_bottom .fr_product_buy .go_buy_btn{
+	display:block;
+}
+/*查看更多商品*/
+.morepruduct{
+	margin-top: 15px;
+	background: #fff;
+}
+.morepruduct_title{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.morepruduct_title p{
+	float: left;
+	padding:0px 5px;
+	width:207px;
+	height:28px;
+	overflow: hidden;
+}
+.morepruduct_title a{
+	color: #ccc;
+	font-size: 12px;
+	float: right;
+	padding:5px 10px;
+}
+.morepruduct .swiper-banner-more .swiper-slide p{
+	width: 100%;
+	height:20px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	color: #333;
+}
+.morepruduct .swiper-banner-more .swiper-slide span{
+	display: block;
+	color: #e02e24;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.swiper-container img{
+	display: block;
+	width: 100%;
+}
